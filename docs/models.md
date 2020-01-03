@@ -119,7 +119,7 @@ Delete operations are also possible. Remember to validate that the model exists 
 
 ```go
 func (c *UserController) Delete(ctx *framework.Context) {
-	
+
     // Validate request parameters
     params, valid := ctx.Request.Validate(map[string]string{
 		"id": "required",

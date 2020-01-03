@@ -16,6 +16,7 @@ Welcome to the Golosina Cmd!
 	`,
 }
 
+// Execute the root command
 func Execute() {
 
 	if err := rootCmd.Execute(); err != nil {
